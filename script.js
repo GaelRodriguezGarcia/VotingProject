@@ -1,7 +1,85 @@
-//audio online
+//on page load audio
 window.onload = function() {
-    document.getElementById("cel").play();
+    this.document.getElementById("myAudio").play()
 }
+
+//on click event listener
+
+
+
+//mouse move event listener
+
+
+
+//mouse over and mouse leave event listener
+
+
+
+//note: use "this" for clicks
+
+
+
+//loop  that will create multiple elements at once
+
+
+
+//custom curserr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

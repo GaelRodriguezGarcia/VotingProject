@@ -5,13 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="style2.css" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+            <div id="confetti"></div>
         
                 <title>Thanks for your vote!</title>
             </head>
-            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
-            <div id="confetti"></div>
+            
             <body>
-                <audio src="audio/Celebrate.mp3" loop="loop" ></audio>
+                <!--<audio id="myAudio" src="audio/Celebrate.mp3" loop="loop"></audio>-->
+                <audio autoplay>
+                        <source src="Celebrate.mp3" type="audio/mpeg">
+                      </audio>
                 <h1>Thanks for voting!</h1>
                 <img id="thisPic" src="images/nixonman.jpeg">
                 <a href="index.html">
